@@ -91,3 +91,15 @@ tbody{
     margin-left: 0;
     margin-top: 30px;
 }
+@media only screen and (max-width: 768px) {
+
+.input-container{
+   
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    gap:30px;
+    padding: 0;
+
+}
+    
+}
